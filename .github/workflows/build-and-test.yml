@@ -30,4 +30,4 @@ jobs:
         run: dotnet test RaceDay.Api.Tests/RaceDay.Api.Tests.csproj --no-build --configuration Release --verbosity normal
 
       - name: All checks passed
-        run: echo "SUCCESS: API builds and all unit tests pass."
+        run: echo "SUCCESS - API builds and all unit tests pass."
